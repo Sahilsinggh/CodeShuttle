@@ -40,6 +40,7 @@ public List<EmployeeEntity> getAllEmployees(@RequestParam(required = false, name
     public EmployeeEntity createNewEmployee(@RequestBody EmployeeEntity employeeEntity){
 
     return employeeRepository.save(employeeEntity);
+
 }
 
 
